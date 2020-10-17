@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C9ED"
+    android:orientation="vertical"
+    tools:context=".aditi">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="cursive"
+               android:text="Aditi Saxena"
+               android:textAlignment="center"
+               android:textColor="#55172C"
+               android:textSize="40dp"
+               android:padding="20dp"
+               android:textStyle="bold" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="cursive"
+               android:text="Sending wishes ur way for u to hv a joyous year ahead ……stay gigly n pretty
+-	Lots of love n hugs to u lado!!!!!!
+"
+               android:padding="5dp"
+               android:textAlignment="center"
+               android:textColor="#55172C"
+               android:textSize="30dp"
+               />
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="500dp"
+               android:padding="20dp"
+               android:src="@drawable/aditi" />
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

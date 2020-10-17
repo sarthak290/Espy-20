@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C9ED"
+    android:orientation="vertical"
+    tools:context=".ritik">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Ritik Rastogi"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Happiest baday to u mishra ji. Hope u remember all those hpy nd annoying moments of us. Hope u rember clss 8,9, 10 . These were d best days of my life if I see it with uh. Hamara saath ,hamara dusro ko leke observation , dusro k liye bc krna fir ek tym pe hmari vo gzbb si ldai ohho ohho ohhho…….. ky hi maza aata tha yrr …… ldai bhle hi hui ho but those moments were also d best . 1st April ki bakchodi ho ….. vo tera chup chupke mujhe lyk krna , share na krna mujhse , seriously dude i love ufr being there in clss 8 my partner . mereko ek case aur bhi yaad hai vo shinjani vala…….ooooo bhaayiiiiiii bht Kamini rhi ho tum , bhut kamina kirdaar rh ah tumhara par jo bhi ho alg hi soft corner hai tumhare liye to……love ju Mishra ji ……happy bday once again …….hope u give me ur bday party after this lockdown"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="30dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/ritik" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

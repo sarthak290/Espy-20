@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C9ED"
+    android:orientation="vertical"
+    tools:ignore="PrivateResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/snihome" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Name: Snigdha Mishra"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Age:20 years"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Profession: Dentist"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="cursive"
+                android:padding="20dp"
+                android:text="Slide Up"
+                android:layout_marginBottom="30dp"
+                android:textAlignment="textStart"
+                android:textColor="#55172C"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_one" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_two" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_three" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_four" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_five" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_six" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_seven" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_eight" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_nine" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_ten" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_eleven" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/home_thirteen" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

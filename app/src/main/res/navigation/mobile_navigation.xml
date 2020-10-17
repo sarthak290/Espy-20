@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.espy20.ui.home.HomeFragment"
+        android:label="Snigdha"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.espy20.ui.gallery.GalleryFragment"
+        android:label="BFF"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.espy20.ui.slideshow.SlideshowFragment"
+        android:label="Special Video"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/credits"
+        android:name="com.example.espy20.credits"
+        android:label="Credits"
+        tools:layout="@layout/fragment_credits" />
+
+    <fragment
+        android:id="@+id/aditi"
+        android:name="com.example.espy20.aditi"
+        android:label="Aditi"
+        tools:layout="@layout/fragment_aditi" />
+    <fragment
+        android:id="@+id/prachi"
+        android:name="com.example.espy20.prachi"
+        android:label="Prachi"
+        tools:layout="@layout/fragment_prachi" />
+    <fragment
+        android:id="@+id/vibhor"
+        android:name="com.example.espy20.vibhor"
+        android:label="Vibhor"
+        tools:layout="@layout/fragment_vibhor" />
+    <fragment
+        android:id="@+id/amit"
+        android:name="com.example.espy20.amit"
+        android:label="Amit"
+        tools:layout="@layout/fragment_amit" />
+    <fragment
+        android:id="@+id/ritik"
+        android:name="com.example.espy20.ritik"
+        android:label="Ritik"
+        tools:layout="@layout/fragment_ritik" />
+    <fragment
+        android:id="@+id/rishab"
+        android:name="com.example.espy20.rishab"
+        android:label="Rishab"
+        tools:layout="@layout/fragment_rishab" />
+
+
+</navigation>

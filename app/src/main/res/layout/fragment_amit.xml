@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C9ED"
+    android:orientation="vertical"
+    tools:context=".amit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Amit Kumar"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="40dp"
+                android:padding="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Hey….. happy birthday snigdha
+A tomboy girl
+We r classmates since nursery class
+but we became friends in 8 I guess….nd d friendship grew n grew nd will grow
+u were always agood friend to me n better we r together
+be happy ….be classy…..lyk d way u r
+FUTURE DENTIST
+Always there for u
+Happy bday to d u …. Although we dnt talk muchb….but yeah u r my close frnd nd will always be!!!
+"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#55172C"
+                android:textSize="30dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="20dp"
+                android:src="@drawable/amit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

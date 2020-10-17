@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8C9ED"
+    tools:context=".credits">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="This app has been made by Sarthak Bhatnagar ,where all the resources have been provided by Shailrisha Singh"
+        android:textAlignment="center"
+        android:textColor="#55172C"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"
+        android:padding="40dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
